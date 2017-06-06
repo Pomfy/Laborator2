@@ -4,14 +4,10 @@ using namespace std;
 
 int main()
 {
-    int v, h ;
-    double G;
-    cout << "Varsta (ani) : ";
-    cin >> v;
-    cout << "Inaltimea (cm) :";
-    cin >> h;
-     G = 50 + 0.75*(h - 150) + 0.25 * (v - 20);
-    cout << "Greutatea ideala (barbat) : " << G << "kg" << endl;
-    cout << "Greutatea ideala (femeie) : " << 0.9 * G << "kg" << endl;
+    double mile, km;
+    cout << "Lungimea in mile: ";
+    cin >> mile;
+    km = mile * 1.609344;
+    cout << "Lungimea in Km este de " << km << endl;
     return 0;
 }
