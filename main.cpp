@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    double mile, km;
-    cout << "Lungimea in mile: ";
-    cin >> mile;
-    km = mile * 1.609344;
-    cout << "Lungimea in Km este de " << km << endl;
+    double cel, fahr;
+    cout << "Temperatura in grade Fahrenheit: ";
+    cin >> fahr;
+    cel = (fahr - 32) * 5./9;
+    cout << "Temperatura in grade Celsius este de " << cel << endl;
     return 0;
 }
